@@ -1,0 +1,42 @@
+body{
+ background-color: aliceblue;
+}
+
+form{
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid rgb(156, 156, 247);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(156, 253, 193);
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+h2{
+  text-align: center;
+  color: rgba(0, 0, 0, 0.438);
+}
+p{
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.014);
+}
+input{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid rgb(199, 196, 196);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+button{
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(241, 182, 109);
+  color:white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(196, 148, 241);
+}
